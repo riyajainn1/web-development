@@ -1,0 +1,21 @@
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    justify-content: space-around;
+    color: white;
+}
+div{
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+h4{
+    color: red;
+}
+button{
+    color: red; background-color:white; 
+}

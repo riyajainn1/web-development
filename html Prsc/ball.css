@@ -1,0 +1,23 @@
+
+.ball{
+    background:linear-gradient( yellow ,red);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin:20px auto;
+    border: 5px solid black;
+    animation-name: bounce;
+     animation-iteration-count: infinite; 
+     animation-duration: 900ms;
+     animation-timing-function: ease-in;
+     animation-direction: alternate;
+    /* animation: 900ms ease-in 0s infinite alternate none running bounce; */
+}
+@keyframes bounce {
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(85vh) rotate(360deg);
+    }
+}

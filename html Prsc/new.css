@@ -1,0 +1,29 @@
+#parent{
+    height: 400px;
+    border: solid 8px green;
+    display: flex;
+    /* justify-content: end; */
+    /* justify-content: space-between; */
+    /* flex-direction: column-reverse; */
+    align-items: center;
+    /* justify-content: end; */
+    justify-content: space-evenly;
+}
+.one{
+    height: 100px;
+    width: 100px;
+
+}
+div :nth-child(1){
+    background-color: blueviolet;
+}
+
+
+#three{
+    background-color: red;
+}
+#four{
+    background-color: blue;
+}
+
+

@@ -1,0 +1,58 @@
+/* .outer{
+    height: 100vh;
+    width: 100wh;
+    background-color: blue;
+}
+
+.inner{
+    height: 100%;
+    width: 100%;
+    background-color: coral;
+} */
+li{
+    font-size: 2em;
+}
+/* div{ 
+    font-size: 50px;
+    border: 2px solid chocolate;
+    width: 70px;
+    height: 150px;
+} */
+/* div{
+    background-color: blue;
+    width: 400px;
+    height: 200px; */
+    /* display: none; */
+/* display: inline block; */
+/* display: inline; */
+/* } */
+/* span{
+    background-color: brown;
+    width: 400px;
+    height: 200px;
+    display: block; */
+    /* visibility: hidden; */
+    /* display: none; */
+    /* display: inline block;
+*/
+div{
+    height: 150px;
+    width: 150px;
+     display: inline-block;
+
+}
+div:nth-of-type(1){
+    background-color: blue;
+
+}
+div:nth-of-type(2){
+    background-color: brown;
+     top:2px; 
+     left:2px;
+    /* position: absolute;  */
+     
+    position:fixed; 
+
+}
+div:nth-of-type(3){
+    background-color: chartreuse;}

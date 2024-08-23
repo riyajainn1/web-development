@@ -1,0 +1,38 @@
+#two{
+    color: blue;
+}
+#three{
+    color: blueviolet;
+}
+a[href^="http"]{
+    background-color: aquamarine;
+}
+a[href$=com]{
+    background-color: blue;
+}
+li:nth-of-type(even){
+    background-color: brown;
+}
+
+span p{ 
+    background-color: blueviolet;
+ }  
+div{
+    
+    height: 300px;
+    width: 250px;
+    border-radius: 100px;
+    background-color: chocolate;
+    transition: 0
+    s;
+} 
+div:hover{
+    border-radius: 50%;
+    background-color: chartreuse;
+    width: 500px;
+ } 
+ .
+ 
+ 
+
+

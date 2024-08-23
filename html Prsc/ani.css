@@ -1,0 +1,35 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+div:hover{ 
+   animation-name: rj;
+   animation-duration: 5s;
+}
+@keyframes rj {
+    0%{
+        background-color: red;
+        border-radius: 40px;
+        height: 200px;
+        width: 200px;
+    }
+    45%{
+        background-color: black;
+        border-radius: 50px;
+        height: 300px;
+        
+        width: 300px;
+    }
+    70%{
+        background-color: yellow;
+        height: 400px;
+        width: 400px;
+    }
+    100%{
+        background-color: green;
+        height: 500px;
+        width: 500px;
+        border-radius: 60px;
+    }
+}

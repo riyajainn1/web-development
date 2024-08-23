@@ -1,0 +1,39 @@
+h1{
+color: brown;
+background-color: aqua;
+}
+#parent{
+border: 8px solid salmon;
+    height: 400px;
+    display: flex;
+    /* flex-direction:row ; */
+    /* justify-content: space-around; */
+    /* justify-content: baseline; */
+      align-items: center;
+      justify-content: center;
+      /* align-items: end; */
+    /* justify-content: space space-evenly; */
+     /* flex-direction: row-reverse;  */
+    /* flex-direction: column-reverse; */
+/* justify-content: center; */
+/* justify-content: end; */
+flex-wrap: wrap;
+ justify-content: space-between;   
+}
+.one{
+    height: 100px;
+    width: 100px;
+}
+#two{
+    background-color: #a52a2a;
+      
+}
+#three{
+    background-color: red;
+
+
+}
+#four{
+    background-color: blue;
+    
+}
